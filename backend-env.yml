@@ -1,0 +1,25 @@
+name: backend-env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - ipykernel
+  - ipywidgets
+  - conda-forge::langchain
+  - pip
+  - pip:
+    - openai
+    - tiktoken
+    - chromadb
+    - 'fastapi[all]'
+    - validators
+    # - GitPython
+
+
+# Dev
+#   - beautifulsoup4
+#   - pip:
+#     - validators
+#     - youtube-transcript-api
+#     - pytube

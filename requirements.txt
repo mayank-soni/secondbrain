@@ -1,0 +1,12 @@
+# Dev
+beautifulsoup4
+ipykernel
+chromadb
+fastapi[all]
+GitPython
+langchain
+openai
+pydantic
+tiktoken
+uvicorn
+validators
